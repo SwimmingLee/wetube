@@ -7,6 +7,11 @@
     "start": "nodemon --exec babel-node init.js",
     "commit" : "npm git-cz"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "author": "SwimmingLee",
   "license": "ISC",
   "dependencies": {
